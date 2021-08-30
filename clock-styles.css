@@ -1,0 +1,40 @@
+#clock {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* overflow: hidden; */
+}
+
+.clock-body {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.hand {
+    background: rgba(0, 0, 0, 0.116);
+    /* min-height: 50%; */
+    position: relative;
+    transition: all .3s ease-in;
+}
+
+.number {
+    display: grid;
+    place-content: center;
+    /* background: #000; */
+}
+
+.highlight {
+    /* WARNING Height prone to breaking if any space is added between the numbers on the hands and you will need to add script to calculate correct height */
+    /* Height works at 10% because the tallest hand contains 10 numbers making 10% the height of 1 number */
+    height: 10%;
+    width: 100%;
+    background: rgba(45, 255, 3, 0.479);
+    position: absolute;
+    bottom: 0;
+}
