@@ -67,7 +67,7 @@ const createClockBody = () => {
 
     getWidthOfElement(clockBody)
 
-    const arrayOfHands = [{hand: createUnitsHourHand(), numbers: 5}, {hand: createTensHourHand(), numbers: 9}, {hand: createUnitsMinuteHand(), numbers: 5}, {hand: createTensMinuteHand(), numbers: 9}, {hand: createUnitsSecondHand(), numbers: 5}, {hand: createTensSecondHand(), numbers: 9}]
+    const arrayOfHands = [{hand: createUnitsHourHand(), numbers: 2}, {hand: createTensHourHand(), numbers: 9}, {hand: createUnitsMinuteHand(), numbers: 5}, {hand: createTensMinuteHand(), numbers: 9}, {hand: createUnitsSecondHand(), numbers: 5}, {hand: createTensSecondHand(), numbers: 9}]
 
     // Width of clock body
     const clockWidth = getWidthOfElement(clockBody)
