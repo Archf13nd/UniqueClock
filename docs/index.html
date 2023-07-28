@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Unique Clock</title>
+  </head>
+  <body>
+    <style>
+      body {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 20em;
+      }
+    </style>
+    <div class="container">
+      <clockwork-tower></clockwork-tower>
+    </div>
+
+    <script src="bundle.js"></script>
+    <script>
+      clockworkTowers.default();
+    </script>
+  </body>
+</html>
